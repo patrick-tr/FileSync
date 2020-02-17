@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--This is the Config File to put all the necessarry operations
+    do not change anything unless you know ehat it does! For further
+    information the instruction how to use this application please visit
+    the GitHub for this project or visit my homepage
+
+    Thank you for using FileSync :)
+    Sincerly P.T.
+-->
+
+<ArrayOfCustomFolderSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd ="http://www.w3.org/2001/XMLSchema">
+  <!--Example Folder-->
+  <CustomFolderSettings FolderId="Uniqe folder identification">
+    <FolderEnabled>false</FolderEnabled>
+    <FolderDescription>This folder is a test folder</FolderDescription>
+    <FolderFilter>*.txt</FolderFilter>
+    <FolderPath>C:\Test</FolderPath>
+    <FolderIncludeSub>false</FolderIncludeSub>
+    <Action>-backup</Action>
+    <ActionArguments>-changed archive=true dest=C:\destinationFolder</ActionArguments>
+  </CustomFolderSettings>
+  <!--Example Folder End-->
+  
+</ArrayOfCustomFolderSettings>
